@@ -10,7 +10,7 @@
     },
     {
       "source": "/:match*",
-      "destination": "https://agro-mate-nine.vercel.app/:match*"
+      "destination": "https//google.com*"
     }
   ]
 }
