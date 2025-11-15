@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/agro/:match*",
-      "destination": "https://agro-mate-nine.vercel.app/:match*",
+      "destination": "google.com/:match*",
       
     },
     {
