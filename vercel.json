@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/agro/:match*",
-      "destination": "https://agro-mate-nine.vercel.app/*"
+      "destination": "https://agro-mate-nine.vercel.app/:match*"
     },
     {
       "source": "/weather/:match*",
@@ -10,7 +10,7 @@
     },
     {
       "source": "/:match*",
-      "destination": "https//google.com*"
+      "destination": "https://google.com/:match*"
     }
   ]
 }
