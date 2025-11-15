@@ -1,16 +1,19 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/agro/:match*",
-      "destination": "https://agro-mate-nine.vercel.app/:match*"
+      "destination": "https://agro-mate-nine.vercel.app/:match*",
+      "permanent": false
     },
     {
       "source": "/weather/:match*",
-      "destination": "https://findweather.vercel.app/:match*"
+      "destination": "https://findweather.vercel.app/:match*",
+      "permanent": false
     },
     {
       "source": "/:match*",
-      "destination": "https://google.com/:match*"
+      "destination": "https://google.com/:match*",
+      "permanent": false
     }
   ]
 }
