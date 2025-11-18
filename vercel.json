@@ -2,15 +2,23 @@
   "redirects": [
     {
       "source": "/agro/:match*",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*"
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*",
+      "statusCode": 307
     },
     {
       "source": "/weather/:match*",
-      "destination": "https://findweather.vercel.app/:match*"
+      "destination": "https://findweather.vercel.app/:match*",
+      "statusCode": 307
+    },
+    {
+      "source": "/",
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app",
+      "statusCode": 307
     },
     {
       "source": "/:match*",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*"
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*",
+      "statusCode": 307
     }
   ]
 }
