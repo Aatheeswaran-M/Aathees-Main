@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/agro/:match*",
-      "destination": "google.com/:match*"
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*"
     },
     {
       "source": "/weather/:match*",
@@ -10,7 +10,7 @@
     },
     {
       "source": "/:match*",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/*"
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*"
     }
   ]
 }
