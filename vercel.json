@@ -1,17 +1,16 @@
 {
-  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/agro/:match*",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*"
+      "destination": "https://agro-mate-nine.vercel.app/:match*"
     },
     {
       "source": "/weather/:match*",
       "destination": "https://findweather.vercel.app/:match*"
     },
     {
-      "source": "/(.*)",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/$1"
+      "source": "/:match*",
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:match*"
     }
   ]
 }
