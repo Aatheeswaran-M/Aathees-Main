@@ -1,14 +1,25 @@
 {
-  "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
+    {
+      "source": "/agro",
+      "destination": "https://agro-mate-nine.vercel.app"
+    },
     {
       "source": "/agro/:match*",
       "destination": "https://agro-mate-nine.vercel.app/:match*"
     },
     {
+      "source": "/blog",
+      "destination": "https://your-blog.vercel.app"
+    },
+    {
       "source": "/blog/:match*",
       "destination": "https://your-blog.vercel.app/:match*"
+    },
+    {
+      "source": "/bio",
+      "destination": "https://your-bio.vercel.app"
     },
     {
       "source": "/bio/:match*",
