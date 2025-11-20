@@ -14,6 +14,22 @@
       "destination": "https://agro-mate-nine.vercel.app/:match*"
     },
     {
+      "source": "/pharma/:match*",
+      "destination": "https://pharmahub.vercel.app/:match*"
+    },
+    {
+      "source": "/apps/sms-drive/:match*",
+      "destination": "https://sms-drive-website.vercel.app/:match*"
+    },
+    {
+      "source": "/blog/:match*",
+      "destination": "https://your-blog.vercel.app/:match*"
+    },
+    {
+      "source": "/bio/:match*",
+      "destination": "https://your-bio.vercel.app/:match*"
+    },
+    {
       "source": "/(.*)",
       "destination": "https://portfolio-frontend-seven-pi.vercel.app/$1"
     }
