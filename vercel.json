@@ -6,32 +6,20 @@
       "destination": "https://agro-mate-nine.vercel.app"
     },
     {
-      "source": "/agro/:match*",
-      "destination": "https://agro-mate-nine.vercel.app/:match*"
+      "source": "/agro/(.*)",
+      "destination": "https://agro-mate-nine.vercel.app/$1"
     },
     {
-      "source": "/blog",
-      "destination": "https://your-blog.vercel.app"
+      "source": "/weather/(.*)",
+      "destination": "https://findweather.vercel.app/$1"
     },
     {
-      "source": "/blog/:match*",
-      "destination": "https://your-blog.vercel.app/:match*"
+      "source": "/blog/(.*)",
+      "destination": "https://your-blog.vercel.app/$1"
     },
     {
-      "source": "/bio",
-      "destination": "https://your-bio.vercel.app"
-    },
-    {
-      "source": "/bio/:match*",
-      "destination": "https://your-bio.vercel.app/:match*"
-    },
-    {
-      "source": "/weather/assets/:match*",
-      "destination": "https://findweather.vercel.app/assets/:match*"
-    },
-    {
-      "source": "/weather/:match*",
-      "destination": "https://findweather.vercel.app/:match*"
+      "source": "/bio/(.*)",
+      "destination": "https://your-bio.vercel.app/$1"
     },
     {
       "source": "/(.*)",
