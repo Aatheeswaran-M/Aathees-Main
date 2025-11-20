@@ -1,25 +1,10 @@
 {
+  "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/weather/assets/:match*",
-      "destination": "https://findweather.vercel.app/assets/:match*"
-    },
-    {
-      "source": "/weather/:match*",
-      "destination": "https://findweather.vercel.app/:match*"
-    },
-    {
       "source": "/agro/:match*",
       "destination": "https://agro-mate-nine.vercel.app/:match*"
-    },
-    {
-      "source": "/pharma/:match*",
-      "destination": "https://pharmahub.vercel.app/:match*"
-    },
-    {
-      "source": "/apps/sms-drive/:match*",
-      "destination": "https://sms-drive-website.vercel.app/:match*"
     },
     {
       "source": "/blog/:match*",
@@ -28,6 +13,14 @@
     {
       "source": "/bio/:match*",
       "destination": "https://your-bio.vercel.app/:match*"
+    },
+    {
+      "source": "/weather/assets/:match*",
+      "destination": "https://findweather.vercel.app/assets/:match*"
+    },
+    {
+      "source": "/weather/:match*",
+      "destination": "https://findweather.vercel.app/:match*"
     },
     {
       "source": "/(.*)",
