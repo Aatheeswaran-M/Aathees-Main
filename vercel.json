@@ -14,8 +14,8 @@
       "destination": "https://findweather.vercel.app/$1"
     },
     {
-      "source": "/blog/(.*)",
-      "destination": "https://your-blog.vercel.app/$1"
+      "source": "/news/(.*)",
+      "destination": "https://news-app-mpxl.vercel.app/$1"
     },
     {
       "source": "/bio/(.*)",
