@@ -13,6 +13,10 @@
       "source": "/weather/(.*)",
       "destination": "https://findweather.vercel.app/$1"
     },
+     {
+      "source": "/news",
+      "destination": "https://news-app-mpxl.vercel.app"
+    },
     {
       "source": "/news/(.*)",
       "destination": "https://news-app-mpxl.vercel.app/$1"
