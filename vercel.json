@@ -26,8 +26,8 @@
       "destination": "https://aathees-resume.vercel.app"
     },
     {
-      "source": "/resume/(.*)",
-      "destination": "https://aathees-resume.vercel.app/$1"
+      "source": "/resume/:match*",
+      "destination": "https://aathees-resume.vercel.app/:match*"
     },
     {
       "source": "/bio/(.*)",
