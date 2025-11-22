@@ -21,6 +21,14 @@
       "source": "/news/(.*)",
       "destination": "https://news-app-mpxl.vercel.app/$1"
     },
+     {
+      "source": "/resume",
+      "destination": "https://aathees-resume.vercel.app"
+    },
+    {
+      "source": "/resume/(.*)",
+      "destination": "https://aathees-resume.vercel.app/$1"
+    },
     {
       "source": "/bio/(.*)",
       "destination": "https://your-bio.vercel.app/$1"
