@@ -29,9 +29,13 @@
       "source": "/resume/:match*",
       "destination": "https://aathees-resume.vercel.app/:match*"
     },
+     {
+      "source": "/bio",
+      "destination": https://sabarimalaonline.org/#/login"
+    },
     {
       "source": "/bio/(.*)",
-      "destination": "https://your-bio.vercel.app/$1"
+      "destination": https://sabarimalaonline.org/#/login/$1"
     },
     {
       "source": "/(.*)",
