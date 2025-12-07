@@ -23,11 +23,16 @@
     },
     {
       "source": "/design",
-      "destination": "https://design-x-change.vercel.app/"
+      "destination": "https://design-x-change.vercel.app"
     },
     {
-      "source": "/design/(.*)",
-      "destination": "https://design-x-change.vercel.app/$1"
+      "source": "/design/:match*",
+      "destination": "https://design-x-change.vercel.app/:match*"
+    },
+
+    {
+      "source": "/design/:match*",
+      "destination": "https://design-x-change.vercel.app/:match*"
     },
      {
       "source": "/resume",
