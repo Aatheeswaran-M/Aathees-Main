@@ -6,44 +6,40 @@
       "destination": "https://agro-mate-nine.vercel.app"
     },
     {
-      "source": "/agro/(.*)",
-      "destination": "https://agro-mate-nine.vercel.app/$1"
+      "source": "/agro/:path*",
+      "destination": "https://agro-mate-nine.vercel.app/:path*"
     },
     {
-      "source": "/weather/(.*)",
-      "destination": "https://findweather.vercel.app/$1"
+      "source": "/weather/:path*",
+      "destination": "https://findweather.vercel.app/:path*"
     },
-     {
+    {
       "source": "/news",
       "destination": "https://news-app-mpxl.vercel.app"
     },
     {
-      "source": "/news/(.*)",
-      "destination": "https://news-app-mpxl.vercel.app/$1"
+      "source": "/news/:path*",
+      "destination": "https://news-app-mpxl.vercel.app/:path*"
     },
     {
       "source": "/design",
       "destination": "https://design-x-change.vercel.app"
     },
     {
-      "source": "/design/:match*",
-      "destination": "https://design-x-change.vercel.app/:match*"
+      "source": "/design/:path*",
+      "destination": "https://design-x-change.vercel.app/:path*"
     },
     {
-      "source": "/design/:match*",
-      "destination": "https://design-x-change.vercel.app/:match*"
-    },
-     {
       "source": "/resume",
       "destination": "https://aathees-resume.vercel.app"
     },
     {
-      "source": "/resume/:match*",
-      "destination": "https://aathees-resume.vercel.app/:match*"
+      "source": "/resume/:path*",
+      "destination": "https://aathees-resume.vercel.app/:path*"
     },
     {
-      "source": "/(.*)",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/$1"
+      "source": "/:path*",
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:path*"
     }
   ]
 }
