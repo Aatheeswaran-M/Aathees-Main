@@ -29,12 +29,6 @@
       "source": "/design/:match*",
       "destination": "https://design-x-change.vercel.app/:match*"
     },
-{
-  "source": "/design/:path*",
-  "destination": "https://design-x-change.vercel.app/:path*",
-  "basePath": false
-},
-
     {
       "source": "/design/:match*",
       "destination": "https://design-x-change.vercel.app/:match*"
