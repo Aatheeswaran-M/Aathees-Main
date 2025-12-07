@@ -37,14 +37,6 @@
       "source": "/resume/:match*",
       "destination": "https://aathees-resume.vercel.app/:match*"
     },
-     {
-      "source": "/bio",
-      "destination": https://sabarimalaonline.org/#/login"
-    },
-    {
-      "source": "/bio/(.*)",
-      "destination": https://sabarimalaonline.org/#/login/$1"
-    },
     {
       "source": "/(.*)",
       "destination": "https://portfolio-frontend-seven-pi.vercel.app/$1"
