@@ -27,7 +27,7 @@
     },
     {
       "source": "/design/(.*)",
-      "destination": "https://design-x-change.vercel.app//$1"
+      "destination": "https://design-x-change.vercel.app/$1"
     },
      {
       "source": "/resume",
