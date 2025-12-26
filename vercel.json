@@ -9,12 +9,10 @@
       "source": "/agro/:path*",
       "destination": "https://agro-mate-nine.vercel.app/:path*"
     },
-
     {
       "source": "/weather/:path*",
       "destination": "https://findweather.vercel.app/:path*"
     },
-
     {
       "source": "/news",
       "destination": "https://news-app-mpxl.vercel.app"
@@ -23,7 +21,6 @@
       "source": "/news/:path*",
       "destination": "https://news-app-mpxl.vercel.app/:path*"
     },
-
     {
       "source": "/design",
       "destination": "https://design-x-change.vercel.app"
@@ -38,14 +35,6 @@
     },
     {
       "source": "/:path*",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:path*"
-    },
-    {
-      "source": "https://www.aathees.me/",
-      "destination": "https://portfolio-frontend-seven-pi.vercel.app"
-    },
-    {
-      "source": "https://www.aathees.me/:path*",
       "destination": "https://portfolio-frontend-seven-pi.vercel.app/:path*"
     }
   ]
