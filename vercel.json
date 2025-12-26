@@ -33,7 +33,19 @@
       "destination": "https://design-x-change.vercel.app/:path*"
     },
     {
+      "source": "/",
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app"
+    },
+    {
       "source": "/:path*",
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app/:path*"
+    },
+    {
+      "source": "https://www.aathees.me/",
+      "destination": "https://portfolio-frontend-seven-pi.vercel.app"
+    },
+    {
+      "source": "https://www.aathees.me/:path*",
       "destination": "https://portfolio-frontend-seven-pi.vercel.app/:path*"
     }
   ]
