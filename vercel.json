@@ -6,6 +6,10 @@
       "destination": "https://agro-mate-nine.vercel.app"
     },
     {
+      "source": "/Thozha",
+      "destination": "https://thozha-associates.vercel.app/"
+    },
+    {
       "source": "/agro/:path*",
       "destination": "https://agro-mate-nine.vercel.app/:path*"
     },
