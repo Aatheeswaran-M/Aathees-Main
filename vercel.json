@@ -11,12 +11,11 @@
       "destination": "https://agro-mate-nine.vercel.app/:path*"
     },
     {
-      "source": "/Thozha",
+      "source": "/thozha",
       "destination": "https://thozha-associates.vercel.app"
     },
-    
     {
-      "source": "/Thozha/:path*",
+      "source": "/thozha/:path*",
       "destination": "https://thozha-associates.vercel.app/:path*"
     },
     {
