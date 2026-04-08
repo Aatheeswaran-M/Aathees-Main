@@ -5,7 +5,6 @@
       "source": "/agro",
       "destination": "https://agro-mate-nine.vercel.app"
     },
-    
     {
       "source": "/agro/:path*",
       "destination": "https://agro-mate-nine.vercel.app/:path*"
@@ -17,6 +16,10 @@
     {
       "source": "/thozha/:path*",
       "destination": "https://thozha-associates.vercel.app/:path*"
+    },
+    {
+      "source": "/weather",
+      "destination": "https://findweather.vercel.app"
     },
     {
       "source": "/weather/:path*",
