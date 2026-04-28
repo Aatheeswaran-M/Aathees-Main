@@ -35,11 +35,11 @@
     },
     {
       "source": "/design",
-      "destination": "https://design-x-change.vercel.app"
+      "destination": "https://aatheeswaran.vercel.app/"
     },
     {
       "source": "/design/:path*",
-      "destination": "https://design-x-change.vercel.app/:path*"
+      "destination": "https://aatheeswaran.vercel.app/:path*"
     },
     {
       "source": "/",
