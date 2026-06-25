@@ -19,11 +19,11 @@
     },
     {
       "source": "/weather",
-      "destination": "https://findweather.vercel.app"
+      "destination": "https://www.oly.live"
     },
     {
       "source": "/weather/:path*",
-      "destination": "https://findweather.vercel.app/:path*"
+      "destination": "https://www.oly.live/:path*"
     },
     {
       "source": "/news",
