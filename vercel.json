@@ -41,9 +41,9 @@
       "source": "/design/:path*",
       "destination": "https://aatheeswaran.vercel.app/:path*"
     },
-    {
+        {
       "source": "/linkroaster",
-      "destination": "https://link-roaster-tan.vercel.app"
+      "destination": "https://link-roaster-tan.vercel.app/"
     },
     {
       "source": "/linkroaster/:path*",
