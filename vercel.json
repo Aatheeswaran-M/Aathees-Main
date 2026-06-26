@@ -43,11 +43,11 @@
     },
     {
       "source": "/linkroaster",
-      "destination": "https://link-roaster-tan.vercel.app/linkroaster/"
+      "destination": "https://link-roaster-tan.vercel.app"
     },
     {
       "source": "/linkroaster/:path*",
-      "destination": "https://link-roaster-tan.vercel.app/linkroaster/:path*"
+      "destination": "https://link-roaster-tan.vercel.app/:path*"
     },
     {
       "source": "/",
